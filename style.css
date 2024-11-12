@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Space+Grotesk:wght@300..700&display=swap");
+
+body {
+  text-decoration: none;
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --text-color: #667085;
+  --main-color: #8e2424;
+  --precard-color: rgba(142, 36, 36, 0.05);
+  --card-color: rgba(234, 236, 240, 1);
+}
+
+/*HEADER ABAIXO*/
+.cabecalho {
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  gap: 12px;
+  padding: 1em 0 2em 0;
+}
+
+.logo {
+  margin-left: 5em;
+}
+
+.navegador {
+  margin-left: 10em;
+  margin-right: auto;
+  display: flex;
+  gap: 40px;
+}
+
+.navegador-item {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 14px;
+}
+
+.botao-transparente {
+  justify-content: flex-end;
+  padding: 8px;
+  border-radius: 8px;
+  color: var(--text-color);
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border: transparent;
+}
+
+.botao {
+  justify-content: flex-end;
+  padding: 8px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: var(--main-color);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border: transparent;
+}
+.botao {
+  margin-right: 5.5em;
+}
+
+/*MAIN ABAIXO*/
+
+.primeira-parte-corpo {
+  text-align: center;
+}
+
+.primeiro-titulo {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.segundo-titulo {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+.texto-titulo {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 12px;
+}
+
+.texto-corpo {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  padding: 100px;
+  gap: 100px;
+}
+
+.num-corpo-item {
+  margin-bottom: 10px;
+  color: rgba(142, 36, 36, 1);
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.subtitulo-texto {
+  color: black;
+  line-height: 50px;
+}
+
+.texto-corpo-item {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+/*SECTION CARD*/
+
+.container-card {
+  text-align: center;
+}
+
+.titulo-precard {
+  padding: 4px 12px 4px 12px;
+  border-radius: 16px;
+  margin-left: 49em;
+  margin-right: 49em;
+  font-size: 14px;
+  background-color: var(--precard-color);
+  color: var(--main-color);
+  font-weight: 500;
+}
+.subtitulo-precard {
+  font-weight: 600;
+  font-size: 2.1em;
+  margin-left: 0.5em;
+}
+.texto-precard {
+  font-weight: 400;
+  font-size: 1.2em;
+  color: var(--text-color);
+}
+.img-reuniao {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 450px;
+  width: 1300px;
+}
+
+.card-list {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo-card {
+  font-size: 1.2em;
+  font-weight: 500;
+  padding-right: 40em;
+}
+
+.subtitulo-card {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-right: 34em;
+  margin-top: 1em;
+}
+
+.bordar {
+  padding: 1px;
+  margin-left: 19.5em;
+  margin-right: 21.5em;
+  gap: 32px;
+  border: 1px solid var(--card-color);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.bordar:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.texto-card1,
+.texto-card2 {
+  display: inline-block;
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  margin-right: 30em;
+}
+
+.texto-card1 {
+  margin-right: 10px;
+}
+
+.titulo-curtos-card {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-right: 36em;
+  margin-top: 1em;
+}
+.titulo-card2 {
+  font-size: 1.2em;
+  font-weight: 500;
+  padding-right: 29.5em;
+  padding-top: 2em;
+}
+
+.titulo-curtos-card2 {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-right: 32em;
+  margin-top: 1em;
+}
+
+.subtitulo-card2 {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-right: 29em;
+  margin-top: 1em;
+}
+
+/*COMENTARIO AVALIACAO*/
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 96px;
+}
+
+.container-avaliacao {
+  background-color: rgba(195, 25, 25, 0.03);
+  padding: 32px 0px 32px 0px;
+  padding-left: 200px;
+  padding-right: 200px;
+  border-radius: 16px;
+}
+
+.titulo-avaliacao {
+  font-size: 14px;
+  color: var(--main-color);
+  font-weight: 600;
+}
+
+.subtitulo-avaliacao {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  gap: 16px;
+}
+
+.nome-avatar {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.funcao-avatar {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+/*EMAIL PARA VAGA*/
+
+.container-email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 96px;
+  background: rgba(249, 250, 251, 1);
+  padding: 96px 0px 96px 0px;
+  padding-left: 600px;
+  padding-right: 600px;
+  white-space: nowrap;
+}
+.bordar-texto {
+  padding: auto;
+}
+
+.titulo-email {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.texto-email {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+.container-caixa-email {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.email {
+  border: 1px solid rgba(208, 213, 221, 1);
+  padding: 10px;
+  width: 360px;
+  border-radius: 6px;
+}
+
+.botao-email {
+  padding: 10px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: var(--main-color);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border: transparent;
+  margin-left: 10px;
+}
+
+.direito {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Estilos para tablets */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Estilos para celulares */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
